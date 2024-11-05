@@ -1,4 +1,4 @@
-# setup-Homepage-on-TrueNAS
+# How to setup Homepage on TrueNAS Scale, how to SSH, and my config!
 
 (just want a config template to get started? Copy my code from the `.yaml` files above and paste into your appropriate files!)
 
