@@ -54,7 +54,11 @@ Please refer to the official Homepage documentation to learn how to code your da
 
 Now, once you want to save your `.yaml` file and check your work, use the keystroke `ctrl + O (letter O)` and then `Enter` to save. If it gives you an error, you forgot to run the `sudo su` command earlier.
 
-If you want to see my configuration, you can check out this repository: https://github.com/owennewo-photo/custom-Homepage-config
-You can copy my code and paste it in your `.yaml` files.
+And if you want to exit `nano` do `ctrl + x`
+
+If you want to see my configuration, I uploaded my files to this repo.
+No need to download the files, just copy the code and paste it into your file. Make sure the file you paste the code in is the same name of what you copied from!
+
+If this helped you, please give it a star. If you want to be notified when I update my config and the `.yaml` files, make sure to click watch!
 
 Happy Homepage-ing!
