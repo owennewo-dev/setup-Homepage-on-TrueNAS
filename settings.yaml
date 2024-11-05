@@ -1,5 +1,12 @@
 color: slate
-theme: dark
+theme: light
+
+background:
+  image: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/seascape.jpg?raw=true
+  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
+  saturate: 100 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
+  brightness: 75 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
+  opacity: 90 # 0-100
 
 hideVersion: true
 
