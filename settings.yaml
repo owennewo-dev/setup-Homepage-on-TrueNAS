@@ -1,0 +1,12 @@
+color: slate
+theme: dark
+
+hideVersion: true
+
+useEqualHeights: true
+
+headerStyle: boxedWidgets
+
+providers:
+  openweathermap: openweathermapapikey
+  weatherapi: weatherapiapikey
