@@ -1,5 +1,7 @@
 # setup-Homepage-on-TrueNAS
 
+(just want a config template to get started? Copy my code from the `.yaml` files above and paste into your appropriate files!)
+
 ![192 168 4 45_30054_](https://github.com/user-attachments/assets/969deb99-4fa6-4c55-833c-9599a39b83e1)
 
 Welcome to the only guide on the internet for installing and configuring Homepage on your TrueNAS Scale server!
