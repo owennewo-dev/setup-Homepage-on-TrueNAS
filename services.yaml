@@ -1,10 +1,10 @@
 - Services:
     - TrueNAS:
         icon: truenas.png
-        href: http://ip-address
+        href: http://ip-address (do not include slash / at the end of urls!)
         widget:
           type: truenas
-          url: http://ip-address
+          url: http://ip-address (do not include slash / at the end of urls!)
           username: user # not required if using api key
           password: pass # not required if using api key
           key: yourkeyhereyourkeyhereyourkeyhereyourkeyhere # not required if using username / password
@@ -13,25 +13,25 @@
 
     - Immich:
         icon: immich.png
-        href: http://ip-address:port
+        href: http://ip-address:port (do not include slash / at the end of urls!)
         widget:
           type: immich
-          url: http://ip-address:port
+          url: http://ip-address:port (do not include slash / at the end of urls!)
           key: yourkeyhereyourkeyhereyourkeyhereyourkeyhere
           version: 2
 
     - Nextcloud:
         icon: nextcloud.png
-        href: http://ip-address:port
+        href: http://ip-address:port (do not include slash / at the end of urls!)
         widget:
           type: nextcloud
-          url: http://ip-address:port
+          url: http://ip-address:port (do not include slash / at the end of urls!)
           username: your-username
           password: your-password
 
     - Home Assistant:
         icon: home-assistant.png
-        href: http://ip-address:port
+        href: http://ip-address:port (do not include slash / at the end of urls!)
 
 - Calendar:
     - Calendar:
