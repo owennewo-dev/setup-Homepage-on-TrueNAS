@@ -61,6 +61,8 @@ And if you want to exit `nano` do `ctrl + x`
 If you want to see my configuration, I uploaded my files to this repo.
 No need to download the files, just copy the code and paste it into your file. Make sure the file you paste the code in is the same name of what you copied from!
 
+If you want to use my background, I have it uploaded to this repo. Click it, and then right click and `Copy image address` or just use this link: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/seascape.jpg?raw=true
+
 If this helped you, please give it a star. If you want to be notified when I update my config and the `.yaml` files, make sure to click watch!
 
 Happy Homepage-ing!
