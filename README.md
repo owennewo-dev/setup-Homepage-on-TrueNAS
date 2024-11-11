@@ -1,6 +1,6 @@
 # How to setup Homepage on TrueNAS Scale, everything you need to know
 
-![Homepage](https://github.com/user-attachments/assets/8ed47424-6953-4a30-ac5d-99b495e8ac88)
+
 
 Welcome to the only guide on the internet for installing and configuring Homepage and all the extra goodies on a TrueNAS Scale server!
 
