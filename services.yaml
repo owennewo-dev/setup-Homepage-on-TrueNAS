@@ -1,62 +1,133 @@
 - Services:
     - TrueNAS:
         icon: truenas.png
-        href: http://ip-address (do not include slash / at the end of urls!)
+        href: http://server-ip-address
+        siteMonitor: http://server-ip-address
+        statusStyle: dot
         widget:
           type: truenas
-          url: http://ip-address (do not include slash / at the end of urls!)
+          fields: ["uptime", "alerts"]
+          url: http://server-ip-address
           username: user # not required if using api key
           password: pass # not required if using api key
-          key: yourkeyhereyourkeyhereyourkeyhereyourkeyhere # not required if using username / password
+          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey # not required if using username / password
           enablePools: true # optional, defaults to false
           nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
 
     - Immich:
         icon: immich.png
-        href: http://ip-address:port (do not include slash / at the end of urls!)
+        href: http://server-ip-address:port
+        siteMonitor: http://server-ip-address:port
+        statusStyle: dot
         widget:
           type: immich
-          url: http://ip-address:port (do not include slash / at the end of urls!)
-          key: yourkeyhereyourkeyhereyourkeyhereyourkeyhere
+          fields: ["photos", "videos", "storage"]
+          url: http://server-ip-address:port
+          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey
           version: 2
 
     - Nextcloud:
         icon: nextcloud.png
-        href: http://ip-address:port (do not include slash / at the end of urls!)
+        href: http://server-ip-address:port
+        siteMonitor: http://server-ip-address:port
+        statusStyle: dot
         widget:
           type: nextcloud
-          url: http://ip-address:port (do not include slash / at the end of urls!)
-          username: your-username
-          password: your-password
-
+          fields: ["numfiles"]
+          url: http://server-ip-address:port
+          username: user
+          password: pass
+    - Portainer:
+        icon: portainer.png
+        href: https://server-ip-address:port
+        siteMonitor: https://server-ip-address:port
+        statusStyle: dot
+        widget:
+          type: portainer
+          url: https://server-ip-address:port
+          env: 3
+          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey
+    - Server:
+        icon: tailscale-light.png
+        href: https://login.tailscale.com/admin/machines/
+        widget:
+          type: tailscale
+          deviceid: deviceid
+          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey
+    - Glances:
+        icon: glances.png
+        href: http://server-ip-address:port
+        siteMonitor: http://server-ip-address:port
+        statusStyle: dot
+    - NetAlertX:
+        icon: netalertx.png
+        href: http://server-ip-address:port
+        siteMonitor: http://server-ip-address:port
+        statusStyle: dot
+        widget:
+          type: netalertx
+          url: http://server-ip-address:port
     - Home Assistant:
         icon: home-assistant.png
-        href: http://ip-address:port (do not include slash / at the end of urls!)
+        href: http://server-ip-address:port
+        siteMonitor: http://server-ip-address:port
+        statusStyle: dot
 
-- Calendar:
+- Glances:
+    - CPU:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: cpu
+          version: 4
+    - CPU Temp:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: sensor:Package id 0
+          version: 4
+    - RAM:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: memory
+          version: 4
+    - Network:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: network:eth0
+          version: 4
+    - Boot Drive:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: disk:sdb
+          version: 4
+    - Mirrored Drive 1:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: disk:sdc
+          version: 4
+    - Mirrored Drive 2:
+        widget:
+          type: glances
+          url: http://server-ip-address:port
+          metric: disk:sda
+          version: 4
+
+- Tasks/Calendar:
+    - Tasks:
+        widget:
+          type: iframe
+          name: Tasks
+          src: https://app.todoist.com/app/
     - Calendar:
         widget:
           type: calendar
           firstDayInWeek: sunday # optional - defaults to monday
           view: monthly # optional - possible values monthly, agenda
-          maxEvents: 10 # optional - defaults to 10
+          maxEvents: 50 # optional - defaults to 10
           showTime: true # optional - show time for event happening today - defaults to false
-          timezone: America/Denver # optional and only when timezone is not detected properly (slightly slower performance) - force timezone for ical events (if it's the same - no change, if missing or differe>          integrations: # optional
-            - type: ical # Show calendar events from another service
-              url: urlurlurlurlurlurlurlurlurl # URL with calendar events
-              name: My Events # required - name for these calendar events
-              color: teal # optional - defaults to pre-defined color for the service (zinc for ical)
-              params: # optional - additional params for the service
-                showName: false # optional - show name before event title in event line - defaults to false
-            - type: ical # Show calendar events from another service
-              url: urlurlurlurlurlurlurlurlurl # URL with calendar events
-              name: Birthdays # required - name for these calendar events
-              color: yellow # optional - defaults to pre-defined color for the service (zinc for ical
-              params: # optional - additional params for the service
-                showName: false # optional - show name before event title in event line - defaults to false
-            - type: ical # Show calendar events from another service
-              url: urlurlurlurlurlurlurlurlurl # URL with calendar events
-              name: Holidays # required - name for these calendar events
-              color: yellow # optional - defaults to pre-defined color for the service (zinc for ical)
-              params: # optional - additional params for the service
-                showName: false # optional - show name before event title in event line - defaults to false
+          timezone: Country/City # optional and only when timezone is not detected properly (slightly slower performance) - force timezone for ical events (if it's the same - no change, if missing or differe>
