@@ -1,12 +1,12 @@
 color: slate
-theme: light
+theme: dark
 
 background:
   image: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/seascape.jpg?raw=true
   blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
   saturate: 100 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
   brightness: 75 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
-  opacity: 90 # 0-100
+  opacity: 100 # 0-100
 
 hideVersion: true
 
@@ -17,3 +17,32 @@ headerStyle: boxedWidgets
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
+
+layout:
+  Services:
+    style: row
+    columns: 4
+    header: false
+  Tasks/Calendar:
+    style: row
+    columns: 2
+    header: false
+  Glances:
+    style: row
+    columns: 4
+    header: false
+  Projects:
+    style: column
+    columns: 1
+    header: false
+    disableCollapse: true
+  Cool Stuff:
+    style: column
+    columns: 1
+    header: false
+    disableCollapse: true
+  Other/Photo:
+    style: column
+    columns: 1
+    header: false
+    disableCollapse: true
