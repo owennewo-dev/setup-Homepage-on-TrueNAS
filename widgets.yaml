@@ -1,9 +1,12 @@
-- resources:
-    cpu: true
-    cputemp: true
-    units: imperial
-    memory: true
-    disk: /
+- openmeteo:
+    label: # optional
+    latitude: get your coordinates here https://open-meteo.com/en/docs
+    longitude: get your coordinates here https://open-meteo.com/en/docs
+    timezone: Country/City # optional
+    units: imperial # or imperial
+    cache: 5 # Time in minutes to cache API responses, to stay within limits
+    format: # optional, Intl.NumberFormat options
+      maximumFractionDigits: 0
 
 - search:
     provider: custom
@@ -11,16 +14,6 @@
     target: _blank
     suggestionUrl: https://ac.ecosia.org/autocomplete?type=list&q= # Optional
     showSearchSuggestions: true # Optional
-
-- openmeteo:
-    label: # optional
-    latitude: 44.4444 # go to https://open-meteo.com/en/docs to get your coordinates
-    longitude: 55.5555 # go to https://open-meteo.com/en/docs to get your coordinates
-    timezone: America/denver # optional
-    units: imperial # or imperial
-    cache: 5 # Time in minutes to cache API responses, to stay within limits
-    format: # optional, Intl.NumberFormat options
-      maximumFractionDigits: 0
 
 - datetime:
     text_size: xl
