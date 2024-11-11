@@ -1,1 +1,89 @@
+- Projects:
+    - My Homepage Github Repo:
+      - icon: github.png
+        href: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS
+    - Homepage Github:
+      - icon: github.png
+        href: https://github.com/gethomepage/homepage
+    - Homepage Docs:
+      - icon: mkdocs.png
+        href: https://gethomepage.dev/configs
+    - Icons For Homepage:
+      - icon: github.png
+        href: https://github.com/walkxcode/dashboard-icons
+    - More Icons For Homepage:
+      - icon: si-simpleicons
+        href: https://simpleicons.org/
+    - View Assist Github:
+      - icon: github.png
+        href: https://github.com/dinki/View-Assist
+    - View Assist Wiki:
+      - icon: si-githubpages
+        href: https://dinki.github.io/View-Assist
+    - View Assist YouTube:
+      - icon: youtube.png
+        href: https://www.youtube.com/@homeautomationstation
+    - HassMic Integration Github:
+      - icon: github.png
+        href: https://github.com/jeffc/hassmic-integration
+    - HassMic App Github:
+      - icon: github.png
+        href: https://github.com/jeffc/hassmic-app
 
+- Cool Stuff:
+    - DuckDNS:
+      - icon: duckdns.png
+        href: https://www.duckdns.org/login-github?code=16609e19c71697a74200&state=uhoibougyohouhpyh87yy
+    - Immich Github:
+      - icon: immich.png
+        href: https://github.com/immich-app/immich
+    - MotionMonster Github:
+      - icon: github.png
+        href: https://github.com/motionmonster/Arlo
+    - Shotcut Website:
+      - icon: https://www.shotcut.org/assets/img/media/shotcut-logo-640x640.png
+        href: https://shotcut.com/
+    - Shotcut Forums:
+      - icon: discourse.png
+        href: https://forum.shotcut.org/
+    - Shotcut Github:
+      - icon: github.png
+        href: https://github.com/mltframework/shotcut
+    - BlockTheSpot Github:
+      - icon: github.png
+        href: https://github.com/mrpond/BlockTheSpot
+    - Awesome Selfhosted Github:
+      - icon: github.png
+        href: https://github.com/awesome-selfhosted/awesome-selfhosted
+
+- Other/Photo:
+    - Gmail:
+      - icon: gmail.png
+        href: https://mail.google.com/mail/u/0/#inbox
+    - Calendar:
+      - icon: google-calendar.png
+        href: https://calendar.google.com/calendar/u/0/r
+    - YouTube:
+      - icon: youtube.png
+        href: https://www.youtube.com/
+    - Photography Website:
+      - abbr: WEB
+        href: 
+    - Pixieset:
+      - abbr: PIX
+        href: 
+    - Flickr:
+      - icon: https://www.flickrhelp.com/hc/article_attachments/4419907666708/unnamed.png
+        href: https://www.flickr.com/
+    - MPB:
+      - abbr: MPB
+        href: https://www.mpb.com/en-us
+    - B&H:
+      - abbr: B&H
+        href: https://www.bhphotovideo.com/
+    - Amazon:
+      - icon: amazon.png
+        href: https://www.amazon.com/
+    - Music Collage:
+      - abbr: TAP
+        href: https://www.tapmusic.net/collage.php?user=
