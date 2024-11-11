@@ -6,6 +6,8 @@ Select the `Homepage_Stuff` folder and edit the permissions. Under `Owner` selec
 
 ![{673E02C2-88EE-4E0C-8EFD-5EAC3C323F32}](https://github.com/user-attachments/assets/e1c5e0e7-86c9-4ae0-9622-5f67ad2abe51)
 
+**!!!EDIT!!!** You also need to check `Apply permissions to child datasets`
+
 All done, now hit Save
 
 In the Discover Apps menu, search for Homepage. Click it and then click `Install`.
