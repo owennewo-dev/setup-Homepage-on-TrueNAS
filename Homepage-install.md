@@ -2,11 +2,9 @@ Create a dataset for the configuration files to go in named `Homepage_Stuff` and
 
 ![{66E4D9EC-C9AB-4E2A-859A-7C6697954306}](https://github.com/user-attachments/assets/fae3b763-23f4-4007-9def-d112c71a6a8b)
 
-Select the `Homepage_Stuff` folder and edit the permissions. Under `Owner` select the `User` dropdown, search for and select `www-data`. Do the same for the `Group` dropdown. Check the boxes for `Apply User` `Apply group` and `Apply permissions recursively`. On the right side of the menu check all the boxes.
+Select the `Homepage_Stuff` folder and edit the permissions. Under `Owner` select the `User` dropdown, search for and select `www-data`. Do the same for the `Group` dropdown. Check the boxes for `Apply User` `Apply group` `Apply permissions recursively` and `Apply permissions to child datasets`. On the right side of the menu check all the boxes.
 
-![{673E02C2-88EE-4E0C-8EFD-5EAC3C323F32}](https://github.com/user-attachments/assets/e1c5e0e7-86c9-4ae0-9622-5f67ad2abe51)
-
-**!!!EDIT!!!** You also need to check `Apply permissions to child datasets`
+![{3FA43830-F3E9-4D8F-B6A1-39E17442BF1E}](https://github.com/user-attachments/assets/26fb0d6c-4a6a-4f39-bc13-1f2216e59885)
 
 All done, now hit Save
 
