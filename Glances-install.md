@@ -4,6 +4,8 @@ Glances is a system resources monitoring tool, and the Glances widgets in Homepa
 
 Who doesn't want those on their homepage?!
 
+## Install App
+
 To install Glances on a TrueNAS Scale server, go to the `Apps` menu and then click the `Discover Apps` button in the top right corner. Then click the `Custom Apps` button.
 
 In the `Application Name` field enter `glances`.
@@ -37,6 +39,8 @@ Back in the `Apps` menu you will notice there is no `Web UI` button in the `Appl
 You should now see this screen.
 
 ![{71E4837A-6205-46F7-AE28-501ACF9A94F5}](https://github.com/user-attachments/assets/b2557f91-2a94-4fee-aa1b-86a23c8fb474)
+
+## Other Notes
 
 Now that Glances is installed properly, you can add the widgets to your Homepage. Refer to the [official documentation](https://gethomepage.dev/widgets/services/glances/) to learn how to configure the widgets.
 
