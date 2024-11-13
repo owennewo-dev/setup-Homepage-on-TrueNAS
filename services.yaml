@@ -1,119 +1,118 @@
 - Services:
     - TrueNAS:
         icon: truenas.png
-        href: http://server-ip-address
-        siteMonitor: http://server-ip-address
+        href: http://server-ip
+        siteMonitor: http://server-ip
         statusStyle: dot
         widget:
           type: truenas
           fields: ["uptime", "alerts"]
-          url: http://server-ip-address
+          url: http://server-ip
           username: user # not required if using api key
           password: pass # not required if using api key
-          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey # not required if using username / password
+          key: apikey # not required if using username / password
           enablePools: true # optional, defaults to false
           nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
-
     - Immich:
         icon: immich.png
-        href: http://server-ip-address:port
-        siteMonitor: http://server-ip-address:port
+        href: http://server-ip:port
+        siteMonitor: http://server-ip:port
         statusStyle: dot
         widget:
           type: immich
           fields: ["photos", "videos", "storage"]
-          url: http://server-ip-address:port
-          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey
+          url: http://server-ip:port
+          key: apikey
           version: 2
-
     - Nextcloud:
         icon: nextcloud.png
-        href: http://server-ip-address:port
-        siteMonitor: http://server-ip-address:port
+        href: http://server-ip:port
+        siteMonitor: http://server-ip:port
         statusStyle: dot
         widget:
           type: nextcloud
           fields: ["numfiles"]
-          url: http://server-ip-address:port
-          username: user
-          password: pass
+          url: http://server-ip:port
+          username: 
+          password: 
+    - Home Assistant:
+        icon: home-assistant.png
+        href: http://server-ip:port
+        siteMonitor: http://server-ip:port
+        statusStyle: dot
+        statusStyle: dot
     - Portainer:
         icon: portainer.png
-        href: https://server-ip-address:port
-        siteMonitor: https://server-ip-address:port
+        href: https://server-ip:port
+        siteMonitor: https://server-ip:port
         statusStyle: dot
         widget:
           type: portainer
-          url: https://server-ip-address:port
+          url: https://server-ip:port
           env: 3
-          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey
-    - Server:
+          key: apikey
+    - Tailscale:
         icon: tailscale-light.png
-        href: https://login.tailscale.com/admin/machines/
+        href: https://login.tailscale.com
         widget:
           type: tailscale
           deviceid: deviceid
-          key: apikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikeyapikey
-    - Glances:
-        icon: glances.png
-        href: http://server-ip-address:port
-        siteMonitor: http://server-ip-address:port
-        statusStyle: dot
+          key: apikey
     - NetAlertX:
         icon: netalertx.png
-        href: http://server-ip-address:port
-        siteMonitor: http://server-ip-address:port
+        href: http://server-ip:port
+        siteMonitor: http://server-ip:port
         statusStyle: dot
         widget:
           type: netalertx
-          url: http://server-ip-address:port
-    - Home Assistant:
-        icon: home-assistant.png
-        href: http://server-ip-address:port
-        siteMonitor: http://server-ip-address:port
+          url: http://server-ip:port
+    - Glances:
+        icon: glances.png
+        href: http://server-ip:port
+        siteMonitor: http://server-ip:port
         statusStyle: dot
-
+        
 - Glances:
     - CPU:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: cpu
           version: 4
     - CPU Temp:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: sensor:Package id 0
           version: 4
     - RAM:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: memory
           version: 4
     - Network:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: network:eth0
           version: 4
     - Boot Drive:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: disk:sdb
           version: 4
     - Mirrored Drive 1:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: disk:sdc
           version: 4
     - Mirrored Drive 2:
         widget:
           type: glances
-          url: http://server-ip-address:port
+          url: http://server-ip:port
           metric: disk:sda
           version: 4
 
@@ -122,7 +121,7 @@
         widget:
           type: iframe
           name: Tasks
-          src: https://app.todoist.com/app/
+          src: https://app.todoist.com
     - Calendar:
         widget:
           type: calendar
