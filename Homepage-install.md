@@ -1,3 +1,5 @@
+## Create Datasets
+
 Create a dataset for the configuration files to go in named `Homepage_Stuff` and a subfolder named `HP_Config`.
 
 ![{66E4D9EC-C9AB-4E2A-859A-7C6697954306}](https://github.com/user-attachments/assets/fae3b763-23f4-4007-9def-d112c71a6a8b)
@@ -7,6 +9,8 @@ Select the `Homepage_Stuff` folder and edit the permissions. Under `Owner` selec
 ![{3FA43830-F3E9-4D8F-B6A1-39E17442BF1E}](https://github.com/user-attachments/assets/26fb0d6c-4a6a-4f39-bc13-1f2216e59885)
 
 All done, now hit Save.
+
+## Install the App
 
 In the Discover Apps menu, search for Homepage. Click it and then click `Install`.
    
