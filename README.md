@@ -6,13 +6,13 @@
 
 ⚠️ You need TrueNAS Scale version 24.10 Electric Eel so you can install NetAlertX via custom YAML.
 
-📚 **Contents:**
+## 📚 **Contents**
 + [How to install Homepage](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/Homepage-install.md)
 + [How to remote into your server to configure the `.yaml` files](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/SSH-guide.md)
 + [How to install Glances for fancy graphs](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/Glances-install.md)
 + [How to install NetAlertX for intrusion detection](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/NetAlertX-install.md)
 
-🧑‍💻 **Config files**
+## 🧑‍💻 **Config Files**
 + [settings.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/settings.yaml)
 + [services.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/services.yaml)
 + [widgets.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/widgets.yaml)
