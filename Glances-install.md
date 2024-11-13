@@ -41,7 +41,7 @@ You should now see this screen.
 Now that Glances is installed properly, you can add the widgets to your Homepage. Refer to the [official documentation](https://gethomepage.dev/widgets/services/glances/) to learn how to configure the widgets.
 
 This is my code for the Glances widgets in my `services.yaml` file.
-```
+```yaml
 - Glances:
     - CPU:
         widget:
