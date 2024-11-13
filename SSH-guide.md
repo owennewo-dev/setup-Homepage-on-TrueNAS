@@ -1,3 +1,5 @@
+## Remote into Homepage Dataset on a TrueNAS Server
+
 Open a terminal, I am using Windows PowerShell. Enter the command `ssh admin@your-server-IP` and then your TrueNAS password when promted.
 
 ![{196E4AD9-2D09-43C1-93E6-F60CE3ABB3DA}](https://github.com/user-attachments/assets/f0096723-13b9-45b1-a162-552d51a656a9)
