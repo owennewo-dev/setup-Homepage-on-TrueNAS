@@ -45,4 +45,20 @@ The app should deploy. Once it is running enter `http://your-server-ip:20211` in
 
 Now it's time to learn how to configure NetAlertX! I found this YouTube video very helpful for the initial basic configuration.
 
-[![YouTube video by: What's New Andrew](https://img.youtube.com/vi/umh1c_40HW8/0.jpg)]([https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE](https://youtu.be/umh1c_40HW8?feature=shared&t=164))
+https://youtu.be/umh1c_40HW8?feature=shared&t=164
+
+And don't forget to read the official documentation!
+
+https://github.com/jokob-sk/NetAlertX/blob/main/docs/README.md
+
+And this is the code I have in my `services.yaml` for my NetAlertX widget you saw at the top of this page.
+```yaml
+    - NetAlertX:
+        icon: netalertx.png
+        href: http://server-ip-address:20211
+        siteMonitor: http://server-ip-address:20211
+        statusStyle: dot
+        widget:
+          type: netalertx
+          url: http://server-ip-address:20211
+```
