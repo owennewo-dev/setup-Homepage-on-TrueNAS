@@ -3,10 +3,7 @@ theme: dark
 
 background:
   image: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/seascape.jpg?raw=true
-  blur: sm # sm, "", md, xl... see https://tailwindcss.com/docs/backdrop-blur
-  saturate: 100 # 0, 50, 100... see https://tailwindcss.com/docs/backdrop-saturate
-  brightness: 75 # 0, 50, 75... see https://tailwindcss.com/docs/backdrop-brightness
-  opacity: 100 # 0-100
+cardBlur: "" # sm, "", md, etc... see https://tailwindcss.com/docs/backdrop-blur
 
 hideVersion: true
 
@@ -17,7 +14,7 @@ headerStyle: boxedWidgets
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
-
+  
 layout:
   Services:
     style: row
@@ -36,6 +33,10 @@ layout:
     columns: 1
     header: false
     disableCollapse: true
+  My Stuff:
+    style: column
+    columns: 1
+    header: false
   Cool Stuff:
     style: column
     columns: 1
