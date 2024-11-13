@@ -1,7 +1,4 @@
 - Projects:
-    - My Homepage Github Repo:
-      - icon: github.png
-        href: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS
     - Homepage Github:
       - icon: github.png
         href: https://github.com/gethomepage/homepage
@@ -29,11 +26,23 @@
     - HassMic App Github:
       - icon: github.png
         href: https://github.com/jeffc/hassmic-app
-
+- My Stuff:
+    - Github:
+      - icon: github.png
+        href: https://github.com/notifications
+    - My Homepage Github Repo:
+      - icon: github.png
+        href: https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS
+    - Github Formatting:
+      - icon: github.png
+        href: https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax
+    - HTML Color Codes:
+      - abbr: CC
+        href: https://html-color.codes/
 - Cool Stuff:
     - DuckDNS:
       - icon: duckdns.png
-        href: https://www.duckdns.org/login-github?code=16609e19c71697a74200&state=uhoibougyohouhpyh87yy
+        href: 
     - Immich Github:
       - icon: immich.png
         href: https://github.com/immich-app/immich
@@ -55,7 +64,6 @@
     - Awesome Selfhosted Github:
       - icon: github.png
         href: https://github.com/awesome-selfhosted/awesome-selfhosted
-
 - Other/Photo:
     - Gmail:
       - icon: gmail.png
@@ -86,4 +94,4 @@
         href: https://www.amazon.com/
     - Music Collage:
       - abbr: TAP
-        href: https://www.tapmusic.net/collage.php?user=
+        href: https://www.tapmusic.net/collage.php?user=aftertoast&type=7day&size=3x3&caption=true
