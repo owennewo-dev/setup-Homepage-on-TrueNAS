@@ -1,122 +1,121 @@
 - Services:
     - TrueNAS:
+        id: truenas-scale
         icon: truenas.png
-        href: http://server-ip
-        siteMonitor: http://server-ip
+        href: http://ip-address
+        siteMonitor: http://ip-address
         statusStyle: dot
         widget:
           type: truenas
           fields: ["uptime", "alerts"]
-          url: http://server-ip
-          username: user # not required if using api key
-          password: pass # not required if using api key
-          key: apikey # not required if using username / password
+          url: http://ip-address
+          key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx # not required if using username / password
           enablePools: true # optional, defaults to false
           nasType: scale # defaults to scale, must be set to 'core' if using enablePools with TrueNAS Core
     - Immich:
         icon: immich.png
-        href: http://server-ip:port
-        siteMonitor: http://server-ip:port
+        href: http://ip-address:port
+        siteMonitor: http://ip-address:port
         statusStyle: dot
         widget:
           type: immich
           fields: ["photos", "videos", "storage"]
-          url: http://server-ip:port
-          key: apikey
+          url: http://ip-address:port
+          key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
           version: 2
     - Nextcloud:
         icon: nextcloud.png
-        href: http://server-ip:port
-        siteMonitor: http://server-ip:port
+        href: http://ip-address:port
+        siteMonitor: http://ip-address:port
         statusStyle: dot
         widget:
           type: nextcloud
           fields: ["numfiles"]
-          url: http://server-ip:port
-          username: 
-          password: 
+          url: http://ip-address:port
+          username: user
+          password: pass
     - Home Assistant:
         icon: home-assistant.png
-        href: http://server-ip:port
-        siteMonitor: http://server-ip:port
-        statusStyle: dot
+        href: http://ip-address:port
+        siteMonitor: http://ip-address:port
         statusStyle: dot
     - Portainer:
         icon: portainer.png
-        href: https://server-ip:port
-        siteMonitor: https://server-ip:port
+        href: https://ip-address:port
+        siteMonitor: https://ip-address:port
         statusStyle: dot
         widget:
           type: portainer
-          url: https://server-ip:port
+          url: https://ip-address:port
           env: 3
-          key: apikey
+          key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     - Tailscale:
         icon: tailscale-light.png
-        href: https://login.tailscale.com
+        href: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
         widget:
           type: tailscale
-          deviceid: deviceid
-          key: apikey
+          deviceid: xxxxxxxxxxx
+          key: xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
     - NetAlertX:
         icon: netalertx.png
-        href: http://server-ip:port
-        siteMonitor: http://server-ip:port
+        id: netalert
+        href: http://ip-address:port
+        siteMonitor: http://ip-address:port
         statusStyle: dot
         widget:
           type: netalertx
-          url: http://server-ip:port
+          url: http://ip-address:port
     - Glances:
         icon: glances.png
-        href: http://server-ip:port
-        siteMonitor: http://server-ip:port
+        href: http://ip-address:port
+        siteMonitor: http://ip-address:port
         statusStyle: dot
         
-- Glances:
+- Graphs:
     - CPU:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: cpu
           version: 4
     - CPU Temp:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: sensor:Package id 0
           version: 4
     - RAM:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: memory
           version: 4
     - Network:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: network:eth0
           version: 4
     - Boot Drive:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: disk:sdb
           version: 4
     - Mirrored Drive 1:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: disk:sdc
           version: 4
     - Mirrored Drive 2:
         widget:
           type: glances
-          url: http://server-ip:port
+          url: http://ip-address:port
           metric: disk:sda
           version: 4
 
-- Tasks/Calendar:
+- iframes:
     - Tasks:
         widget:
           type: iframe
@@ -129,4 +128,8 @@
           view: monthly # optional - possible values monthly, agenda
           maxEvents: 50 # optional - defaults to 10
           showTime: true # optional - show time for event happening today - defaults to false
-          timezone: Country/City # optional and only when timezone is not detected properly (slightly slower performance) - force timezone for ical events (if it's the same - no change, if missing or differe>
+          timezone: Country/City # optional and only when timezone is not detected properly (slightly slower performance) - force timezone for ical events (if it's the same - no change, if missing or differe>    - ADS-B Exchange:
+        widget:
+          type: iframe
+          name: ADS-B Exchange
+          src: https://globe.adsbexchange.com/
