@@ -14,7 +14,7 @@ headerStyle: boxedWidgets
 providers:
   openweathermap: openweathermapapikey
   weatherapi: weatherapiapikey
-  
+
 layout:
   Services:
     style: row
@@ -22,28 +22,9 @@ layout:
     header: false
   Tasks/Calendar:
     style: row
-    columns: 2
+    columns: 3
     header: false
   Glances:
     style: row
     columns: 4
     header: false
-  Projects:
-    style: column
-    columns: 1
-    header: false
-    disableCollapse: true
-  My Stuff:
-    style: column
-    columns: 1
-    header: false
-  Cool Stuff:
-    style: column
-    columns: 1
-    header: false
-    disableCollapse: true
-  Other/Photo:
-    style: column
-    columns: 1
-    header: false
-    disableCollapse: true
