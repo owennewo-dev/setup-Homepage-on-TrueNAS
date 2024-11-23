@@ -1,7 +1,7 @@
 - Services:
     - TrueNAS:
         id: truenas-scale
-        icon: truenas.png
+        icon: truenas-scale.png
         href: http://ip-address
         siteMonitor: http://ip-address
         statusStyle: dot
@@ -35,12 +35,12 @@
           username: user
           password: pass
     - Home Assistant:
-        icon: home-assistant.png
+        icon: home-assistant-light.png
         href: http://ip-address:port
         siteMonitor: http://ip-address:port
         statusStyle: dot
     - Portainer:
-        icon: portainer.png
+        icon: portainer-alt.png
         href: https://ip-address:port
         siteMonitor: https://ip-address:port
         statusStyle: dot
@@ -121,6 +121,12 @@
           type: iframe
           name: Tasks
           src: https://app.todoist.com
+          classes: h-96 # optional, use tailwind height classes, see https://tailwindcss.com/docs/height
+          referrerPolicy: same-origin # optional, no default
+          allowPolicy: fullscreen # optional, no default
+          allowFullscreen: false # optional, default: true
+          loadingStrategy: eager # optional, default: eager
+          allowScrolling: no # optional, default: yes
     - Calendar:
         widget:
           type: calendar
@@ -133,3 +139,9 @@
           type: iframe
           name: ADS-B Exchange
           src: https://globe.adsbexchange.com/
+          classes: h-96 # optional, use tailwind height classes, see https://tailwindcss.com/docs/height
+          referrerPolicy: same-origin # optional, no default
+          allowPolicy: fullscreen # optional, no default
+          allowFullscreen: false # optional, default: true
+          loadingStrategy: eager # optional, default: eager
+          allowScrolling: no # optional, default: yes
