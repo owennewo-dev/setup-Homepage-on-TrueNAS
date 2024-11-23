@@ -11,12 +11,15 @@
 + [How to remote into your server to configure the `.yaml` files](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/SSH-guide.md)
 + [How to install Glances for fancy graphs](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/Glances-install.md)
 + [How to install NetAlertX for intrusion detection](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/NetAlertX-install.md)
++ [How to make alert boxes turn red](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/Red-alert-box.md)
 
 ## 🧑‍💻 **Config Files**
 + [settings.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/settings.yaml)
 + [services.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/services.yaml)
 + [widgets.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/widgets.yaml)
 + [bookmarks.yaml](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/bookmarks.yaml)
++ [custom.js](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/custom.js)
++ [custom.css](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/custom.css)
 + [Photo I use for my background](https://github.com/owennewo-photo/setup-Homepage-on-TrueNAS/blob/main/seascape.jpg)
 
 📄 Refer to the [official Homepage documentation](https://gethomepage.dev/configs/) to learn how to configure your config files
