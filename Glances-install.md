@@ -1,6 +1,6 @@
 Glances is a system resources monitoring tool, and the Glances widgets in Homepage are really cool.
 
-![{8360EDDE-F813-4769-99BD-CBB8CD2771FB}](https://github.com/user-attachments/assets/aadfb655-5df6-4654-a176-fc08de32c33d)
+![{E433E74B-1871-4AA6-9624-4466AAD51EF3}](https://github.com/user-attachments/assets/ec982708-6460-46f4-b80c-be3d5de9f7a0)
 
 Who doesn't want those on their homepage?!
 
